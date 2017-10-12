@@ -1,4 +1,4 @@
-import java.awt.*;
+ import java.awt.*;
 
 /**
  *  MyNode represents the status of the edge
@@ -26,7 +26,7 @@ public class EdgeData {
      * Override the toString method
      * @return the distance represented by the edge
      */
-    public String toString(){
+    public String toString() {
         return distance.toString();
     }
 
@@ -34,7 +34,7 @@ public class EdgeData {
      * The Accessor for distance
      * @return the distance represented by the edge
      */
-    public double getDistance(){
+    public double getDistance() {
         return distance;
     }
 
@@ -42,7 +42,7 @@ public class EdgeData {
      * The Accessor for color
      * @return the color of the edge
      */
-    public Color getColor(){
+    public Color getColor() {
         return color;
     }
 
@@ -50,7 +50,7 @@ public class EdgeData {
      * The Manipulator for distance
      * @param distance the new distance
      */
-    public void setDistance(double distance){
+    public void setDistance(double distance) {
         this.distance = distance;
     }
 
@@ -58,7 +58,7 @@ public class EdgeData {
      * The Manipulator for color
      * @param color the new color
      */
-    public void setColor(Color color){
+    public void setColor(Color color) {
         this.color = color;
     }
 

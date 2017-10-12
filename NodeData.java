@@ -1,4 +1,4 @@
-import java.awt.*;
+ import java.awt.*;
 
 /**
  *  NodeData represents the status of the node
@@ -32,7 +32,7 @@ public class NodeData {
      * The Accessor for position
      * @return the position of the node
      */
-    public Point getPosition(){
+    public Point getPosition() {
         return position;
     }
 
@@ -40,7 +40,7 @@ public class NodeData {
      * The Accessor for data
      * @return the data of the node
      */
-    public String getText(){
+    public String getText() {
         return text;
     }
 
@@ -48,7 +48,7 @@ public class NodeData {
      * The Accessor for color
      * @return the color of the node
      */
-    public Color getColor(){
+    public Color getColor() {
         return color;
     }
 
@@ -56,7 +56,7 @@ public class NodeData {
      * The Manipulator for position
      * @param position the new posiiton
      */
-    public void setPosition(Point position){
+    public void setPosition(Point position) {
         this.position = position;
     }
 
@@ -64,7 +64,7 @@ public class NodeData {
      * The Manipulator for text
      * @param text the new text
      */
-    public void setText(String text){
+    public void setText(String text) {
         this.text = text;
     }
 
@@ -72,7 +72,7 @@ public class NodeData {
      * The Manipulator for color
      * @param color the new color
      */
-    public void setColor(Color color){
+    public void setColor(Color color) {
         this.color = color;
     }
 

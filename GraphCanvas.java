@@ -96,10 +96,11 @@ public class GraphCanvas extends JComponent {
      */
     public Boolean paintTraversal(LinkedList<Graph<NodeData,EdgeData>.Edge> path){
         boolean painting;
-        if (!path.isEmpty()){
-            painting = true;
-        } else {
+        if (path.isEmpty()){
             painting = false;
+            return painting;
+        } else {
+            painting = true;
         }
         // set every thing to gray, and set the start point to orange
         for (Graph<NodeData,EdgeData>.Edge edge:graph.getEdge()){

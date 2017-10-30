@@ -20,13 +20,11 @@ public class NodeData {
      * The constructor of NodeData
      * @param position the position of the node
      * @param text the text on the node
-     * @param color the color of the node
      */
     public NodeData(Point position, String text) {
         this.position = position;
         this.text = text;
     }
-
 
     /**
      * The Accessor for position

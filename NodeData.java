@@ -75,5 +75,14 @@ public class NodeData {
     public void setColor(Color color) {
         this.color = color;
     }
+ 
+    /**
+     * Override toString
+     * @return the text on this node
+     */
+    @Override
+    public String toString() {
+        return getText();
+    }
 
 } // the end of class NodeData

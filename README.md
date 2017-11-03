@@ -1,6 +1,9 @@
 # Graph-Algorithms-Visualization
 An API for directed-weighted graph and a GUI visualization for Graph algorithms(BFS, DFS, and Dijkstra).
 
+**Video demo:**
+[GraphAlgos](https://i.imgur.com/LG1ZJ8f.png)](https://www.youtube.com/watch?v=reVHJi7VOMQ)
+
 **Graph.java**: This is an implementation of direct weighted Graph, with two nested classes Node and Edge. In order to ensure the representational flexibility, the Graph class is generic parameterized by two types. This class includes a check function, several graph algorithm, and accessors and manipulators of data in a graph. 
 
 **GraphTest.java**: This is a checking and debugging tool for Graph.java. The test checks the consistency of the graph before and after revising, BFS, DFS and Dijkstra, and ensure the Dijkstra algorithm finds the shortest path after a directed flight between two cities is added.

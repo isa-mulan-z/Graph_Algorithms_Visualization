@@ -2,7 +2,7 @@
 An API for directed-weighted graph and a GUI visualization for Graph algorithms(BFS, DFS, and Dijkstra).
 
 **Video demo:**
-[![GraphAlgos](https://i.imgur.com/LG1ZJ8f.png)]("https://www.youtube.com/watch?v=reVHJi7VOMQ")
+[![GraphAlgos](https://i.imgur.com/LG1ZJ8f.png)](https://www.youtube.com/watch?v=reVHJi7VOMQ)
 
 **Graph.java**: This is an implementation of direct weighted Graph, with two nested classes Node and Edge. In order to ensure the representational flexibility, the Graph class is generic parameterized by two types. This class includes a check function, several graph algorithm, and accessors and manipulators of data in a graph. 
 

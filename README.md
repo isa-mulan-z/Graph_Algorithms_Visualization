@@ -1,5 +1,5 @@
 # Graph-Algorithms-Visualization
-An API for directed-weighted graph and a GUI visualization for Graph algorithms(BFS, DFS, and Dijkstra).
+CS212 Data Structures HW. An API for directed-weighted graph and a GUI visualization for Graph algorithms(BFS, DFS, and Dijkstra).
 
 **Video demo:**
 [![GraphAlgos](https://i.imgur.com/LG1ZJ8f.png)](https://www.youtube.com/watch?v=reVHJi7VOMQ)
